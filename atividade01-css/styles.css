@@ -1,0 +1,44 @@
+body {
+    color: darkslategrey;
+    font-family: arial, sans-serif;
+    font-size: 17px;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    background-color: lightskyblue;
+}
+
+h1 a, h2 a {
+    color: darkblue;
+}
+
+h1 a:visited, h2 a:visited {
+    color: darkblue;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.image {
+    width: 5rem;
+    border-radius: 50%;
+}
+
+dt {
+    font-weight: bold;
+}
+
+.footer-p {
+    text-align: center;
+}
