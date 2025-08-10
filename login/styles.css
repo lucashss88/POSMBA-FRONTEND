@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.main {
+    display: flex;
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+.login-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: gold;
+    border: 2px solid black;
+    width: 20rem;
+    height: 20rem;
+    margin: auto;
+    margin-top: 5rem;
+    border-radius: 2rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 0.8rem;
+}
+
+.input-group {
+    background-color: black;
+    color: yellow;
+    padding: 0.5rem 0.2rem;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+}
+
+#btn-login {
+    background-color: black;
+    color: yellow;
+    padding-block: 0.5rem;
+}
+
+.login-p {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.fa-web-awesome {
+    margin: 0.5rem;
+    font-size: 2rem;
+}

@@ -1,0 +1,87 @@
+body {
+    color: darkslategrey;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 17px;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    background-color: lightskyblue;
+    border-radius: 5px;
+}
+
+h1 a, h2 a {
+    color: darkblue;
+}
+
+h1 a:visited, h2 a:visited {
+    color: darkblue;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.image {
+    width: 7rem;
+    border: 3px solid darkblue;
+    border-radius: 50%;
+}
+
+dt {
+    font-weight: bold;
+}
+
+.footer-p {
+    text-align: center;
+}
+
+#div-icons {
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+    margin: 0;
+}
+
+#div-icons > i {
+    font-size: 30px;
+    line-height: 1.5rem;
+    cursor: pointer;
+}
+
+.fa-linkedin, .fa-square-facebook {
+    color: darkblue;
+}
+
+.fa-linkedin:hover, .fa-square-facebook:hover {
+    color: blue;
+}
+
+.fa-square-twitter {
+    color: deepskyblue;
+}
+
+.fa-square-twitter:hover {
+    color:lightskyblue;
+}
+
+.voltar {
+    font-size: 1.2rem;
+    width: 5.5rem;
+    color: darkblue;
+}
+
+.voltar:hover {
+    background-color: darkblue;
+    color: white;
+    text-decoration: none;
+}
